@@ -25,7 +25,7 @@ ventaja = puntosBlancas - puntosNegras;
 
 /*Este if es para saber de quien es el turno y lo comprueba mirando
 si es para o impar.*/
-if (jugada % 2 == 0){
+if (jugada % 2 === 0){
     turno = 'Mueven Negras';
 }else{
     turno = 'Mueven Blancas';
