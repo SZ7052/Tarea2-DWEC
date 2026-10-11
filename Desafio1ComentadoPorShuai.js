@@ -1,6 +1,7 @@
 /*Declara constantes para asignar puntos
 a las piezas del ajedrez */
-
+/*En la declaracion de constantes solo pongo una vez const para todas
+y las encadeno con , para ahorrar codigo */
 const PEON = 1,
     CABALLO = 3,
     ALFIL = 3,
