@@ -11,7 +11,8 @@ const PEON = 1,
 /*Declara la variables puntosBlancas y puntosNegras para asignar
 * los puntos que tiene el jugador de piezas blancas
 * y negras al comer las piezas anteriores*/
-
+/*En la declaracion de las variables tambien uso solo una vez let
+para no sobrecargar el codigo*/
 let puntosBlancas = 0,
     puntosNegras = 0;
 /*Aqui simula los piezas que han comido cada jugador;
